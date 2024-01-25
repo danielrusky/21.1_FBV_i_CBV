@@ -6,6 +6,8 @@ NULLABLE = {'null': True, 'blank': True}
 class Category(models.Model):
     name = models.CharField(max_length=100, verbose_name='Наименование')
     description = models.TextField(verbose_name='Описание', **NULLABLE)
+    image = models.ImageField(verbose_name='Изображение', upload_to='img/', **NULLABLE)
+    created_at = models.DateTimeField(verbose_name='Поле_для_дальнейшего_удаления', **NULLABLE)
 
     def __str__(self):
         return self.name
@@ -21,8 +23,8 @@ class Product(models.Model):
     image = models.ImageField(verbose_name='Изображение', upload_to='img/', **NULLABLE)
     category = models.ForeignKey(Category, verbose_name='Категория', on_delete=models.CASCADE)
     price = models.IntegerField(verbose_name='Цена', **NULLABLE)
-    data_created = models.DateTimeField(verbose_name='Дата последнего изменения')
-
+    date_created = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')
+    date_modified = models.DateTimeField(verbose_name='Дата последнего изменения', **NULLABLE)
     is_active = models.BooleanField(default=True, verbose_name='в наличие')
 
     def __str__(self):
@@ -31,3 +33,16 @@ class Product(models.Model):
     class Meta:
         verbose_name = 'Продукт'
         verbose_name_plural = 'Продукты'
+
+
+class Contacts(models.Model):
+    name = models.CharField(max_length=100, verbose_name='Имя')
+    phone = models.CharField(max_length=15, verbose_name='Телефон')
+    message = models.TextField(verbose_name='Сообщение')
+
+    def __str__(self):
+        return f"{self.name}({self.phone})"
+
+    class Meta:
+        verbose_name = 'Контакт'
+        verbose_name_plural = 'Контакты'

@@ -9,11 +9,14 @@
                     <form method="post" enctype="multipart/form-data">
                         {% csrf_token %}
                         {{ form.as_p }}
-                        <button type="submit" class="btn btn-primary">Создать</button>
+                        <button type="submit" class="btn btn-primary">Сохранить</button>
+                        <a href="{% url 'catalog:list_product' %}" class="btn btn-primary">К списку товаров</a>
                     </form>
                 </div>
+
             </div>
         </div>
     </div>
 </div>
 {% endblock %}
+
