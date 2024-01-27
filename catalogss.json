@@ -3,8 +3,9 @@
   "model": "catalog.category",
   "pk": 1,
   "fields": {
-    "name": "РњСЏСЃРЅС‹Рµ РїСЂРѕРґСѓРєС‚С‹",
-    "description": "РњСЏСЃРЅС‹Рµ РїСЂРѕРґСѓРєС‚С‹",
+    "name": "Мясные продукты",
+    "description": "Мясные продукты",
+    "image": "img/meats_jeAc0Hj.jpg",
     "created_at": "2024-01-23T06:19:48Z"
   }
 },
@@ -12,8 +13,9 @@
   "model": "catalog.category",
   "pk": 2,
   "fields": {
-    "name": "РќР°РїРёС‚РєРё",
-    "description": "РќР°РїРёС‚РєРё",
+    "name": "Напитки",
+    "description": "Напитки",
+    "image": "img/118735-napitki-17.jpg",
     "created_at": "2024-01-23T06:26:33Z"
   }
 },
@@ -21,8 +23,9 @@
   "model": "catalog.category",
   "pk": 3,
   "fields": {
-    "name": "РЎР°Р»Р°С‚С‹",
-    "description": "РЎР°Р»Р°С‚С‹",
+    "name": "Салаты",
+    "description": "Салаты",
+    "image": "img/salads_BZBGoJ0.jpg",
     "created_at": "2024-01-23T06:27:10Z"
   }
 },
@@ -30,8 +33,9 @@
   "model": "catalog.category",
   "pk": 4,
   "fields": {
-    "name": "РЎРїРѕСЂС‚РёРІРЅРѕРµ РїРёС‚Р°РЅРёРµ",
-    "description": "РЎРїРѕСЂС‚РёРІРЅРѕРµ РїРёС‚Р°РЅРёРµ",
+    "name": "Спортивное питание",
+    "description": "Спортивное питание",
+    "image": "img/sport_food_0Zgl2W7.jpg",
     "created_at": "2024-01-23T06:27:40Z"
   }
 },
@@ -39,8 +43,8 @@
   "model": "catalog.product",
   "pk": 1,
   "fields": {
-    "name": "РРЅРґРµР№РєР°",
-    "description": "РРЅРґРµР№РєР°",
+    "name": "Индейка",
+    "description": "Индейка",
     "image": "img/indeyka_rllog6I.jpg",
     "category": 1,
     "price": 6700,
@@ -53,8 +57,8 @@
   "model": "catalog.product",
   "pk": 2,
   "fields": {
-    "name": "РљРѕР·Р»СЏС‚РёРЅР°",
-    "description": "РљРѕР·Р»СЏС‚РёРЅР°",
+    "name": "Козлятина",
+    "description": "Козлятина",
     "image": "img/kozlatina_LVtqj0v.jpg",
     "category": 1,
     "price": 13900,
@@ -67,8 +71,8 @@
   "model": "catalog.product",
   "pk": 3,
   "fields": {
-    "name": "РљСѓСЂРёС†Р°",
-    "description": "РљСѓСЂРёС†Р°",
+    "name": "Курица",
+    "description": "Курица",
     "image": "img/kuritsa_wrYugiW.jpg",
     "category": 1,
     "price": 5239,
@@ -81,8 +85,8 @@
   "model": "catalog.product",
   "pk": 4,
   "fields": {
-    "name": "РћР»РµРЅРёРЅР°",
-    "description": "РћР»РµРЅРёРЅР°",
+    "name": "Оленина",
+    "description": "Оленина",
     "image": "img/olenina_d7TnnzR.jpg",
     "category": 1,
     "price": 7790,
@@ -95,8 +99,8 @@
   "model": "catalog.product",
   "pk": 5,
   "fields": {
-    "name": "РЎРІРёРЅРёРЅР°",
-    "description": "РЎРІРёРЅРёРЅР°",
+    "name": "Свинина",
+    "description": "Свинина",
     "image": "img/svinia_EB5dYu0.jpg",
     "category": 1,
     "price": 6711,
@@ -109,8 +113,8 @@
   "model": "catalog.product",
   "pk": 6,
   "fields": {
-    "name": "Р›РёРєРµСЂ",
-    "description": "Р›РёРєРµСЂ",
+    "name": "Ликер",
+    "description": "Ликер",
     "image": "img/liker_XMTTBRZ.jpg",
     "category": 2,
     "price": 4590,
@@ -123,8 +127,8 @@
   "model": "catalog.product",
   "pk": 7,
   "fields": {
-    "name": "РџРёРІРѕ",
-    "description": "РџРёРІРѕ",
+    "name": "Пиво",
+    "description": "Пиво",
     "image": "img/pivo_3tmTqhE.jpg",
     "category": 2,
     "price": 990,
@@ -137,8 +141,8 @@
   "model": "catalog.product",
   "pk": 8,
   "fields": {
-    "name": "Р РѕРј",
-    "description": "Р РѕРј",
+    "name": "Ром",
+    "description": "Ром",
     "image": "img/rom_fRKXwxg.jpg",
     "category": 2,
     "price": 7790,
@@ -151,8 +155,8 @@
   "model": "catalog.product",
   "pk": 9,
   "fields": {
-    "name": "Р’РёСЃРєРё",
-    "description": "Р’РёСЃРєРё",
+    "name": "Виски",
+    "description": "Виски",
     "image": "img/viski_cipO0sV.jpg",
     "category": 2,
     "price": 6690,
@@ -165,8 +169,8 @@
   "model": "catalog.product",
   "pk": 10,
   "fields": {
-    "name": "Р’РѕРґРєР°",
-    "description": "Р’РѕРґРєР°",
+    "name": "Водка",
+    "description": "Водка",
     "image": "img/vodka_0JWi1Er.jpg",
     "category": 2,
     "price": 5590,
@@ -179,8 +183,8 @@
   "model": "catalog.product",
   "pk": 11,
   "fields": {
-    "name": "Р§СѓРєР°",
-    "description": "Р§СѓРєР°",
+    "name": "Чука",
+    "description": "Чука",
     "image": "img/chyka_gNculTM.jpg",
     "category": 3,
     "price": 489,
@@ -193,8 +197,8 @@
   "model": "catalog.product",
   "pk": 12,
   "fields": {
-    "name": "Р“СЂРµС‡РµСЃРєРёР№ СЃР°Р»Р°С‚",
-    "description": "Р“СЂРµС‡РµСЃРєРёР№ СЃР°Р»Р°С‚",
+    "name": "Греческий салат",
+    "description": "Греческий салат",
     "image": "img/greek_salad_cl9gMAH.jpg",
     "category": 3,
     "price": 780,
@@ -207,8 +211,8 @@
   "model": "catalog.product",
   "pk": 13,
   "fields": {
-    "name": "РљР°РїСЂРµР·Рµ",
-    "description": "РљР°РїСЂРµР·Рµ",
+    "name": "Капрезе",
+    "description": "Капрезе",
     "image": "img/kapreze_MolWCmn.jpg",
     "category": 3,
     "price": 990,
@@ -221,8 +225,8 @@
   "model": "catalog.product",
   "pk": 14,
   "fields": {
-    "name": "РњРёРјРѕР·Р°",
-    "description": "РњРёРјРѕР·Р°",
+    "name": "Мимоза",
+    "description": "Мимоза",
     "image": "img/mimoza_R3KQsd8.jpg",
     "category": 3,
     "price": 1289,
@@ -235,8 +239,8 @@
   "model": "catalog.product",
   "pk": 15,
   "fields": {
-    "name": "РћР»РёРІСЊРµ",
-    "description": "РћР»РёРІСЊРµ",
+    "name": "Оливье",
+    "description": "Оливье",
     "image": "img/olivye_Ix9g0y6.jpg",
     "category": 3,
     "price": 669,
@@ -249,8 +253,8 @@
   "model": "catalog.product",
   "pk": 16,
   "fields": {
-    "name": "РЇР№С†Р°",
-    "description": "РЇР№С†Р°",
+    "name": "Яйца",
+    "description": "Яйца",
     "image": "",
     "category": 4,
     "price": 789,
@@ -263,8 +267,8 @@
   "model": "catalog.product",
   "pk": 17,
   "fields": {
-    "name": "Р“РµРјР°С‚РѕРіРµРЅ",
-    "description": "Р“РµРјР°С‚РѕРіРµРЅ",
+    "name": "Гематоген",
+    "description": "Гематоген",
     "image": "img/gematogen_5WXPcV3.jpg",
     "category": 4,
     "price": 557,
@@ -277,8 +281,8 @@
   "model": "catalog.product",
   "pk": 18,
   "fields": {
-    "name": "РћСЂРµС…Рё",
-    "description": "РћСЂРµС…Рё",
+    "name": "Орехи",
+    "description": "Орехи",
     "image": "img/nuts_tSzkT9u.jpg",
     "category": 4,
     "price": 783,
@@ -291,8 +295,8 @@
   "model": "catalog.product",
   "pk": 19,
   "fields": {
-    "name": "Р РµРґР¶СѓРІРµР»Р°Рє",
-    "description": "Р РµРґР¶СѓРІРµР»Р°Рє",
+    "name": "Реджувелак",
+    "description": "Реджувелак",
     "image": "img/radzchevylak_9laACxD.jpg",
     "category": 4,
     "price": 880,
@@ -305,8 +309,8 @@
   "model": "catalog.product",
   "pk": 20,
   "fields": {
-    "name": "РўРІРѕСЂРѕРі",
-    "description": "РўРІРѕСЂРѕРі",
+    "name": "Творог",
+    "description": "Творог",
     "image": "img/tvorog_ivNj7dh.jpg",
     "category": 4,
     "price": 682,
@@ -319,16 +323,16 @@
   "model": "catalog.contacts",
   "pk": 2,
   "fields": {
-    "name": "Р”Р°РЅРёР»Р° Р•РІРіРµРЅСЊРµРІРёС‡ РҐР°СЂС‡РµРЅРєРѕ",
+    "name": "Данила Евгеньевич Харченко",
     "phone": "+79775126865",
-    "message": "РџСЂРёРІРµС‚ Siri"
+    "message": "Привет Siri"
   }
 },
 {
   "model": "catalog.contacts",
   "pk": 3,
   "fields": {
-    "name": "Р•РІРіРµРЅРёР№ РҐР°СЂС‡РµРЅРєРѕ",
+    "name": "Евгений Харченко",
     "phone": "+79775126865",
     "message": "Rembo"
   }
